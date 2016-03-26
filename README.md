@@ -40,7 +40,7 @@ npm install inversify --save
 If you are planing to use inversify as a global you will need to add a reference to the file named `inversify-global.d.ts` this file is included in the npm package:
 
 ```
-/// <reference path="./node_modules/inversify/type_definitions/inversify-global.d.ts" />
+/// <reference path="./node_modules/inversify/type_definitions/inversify/inversify.d.ts" />
 ```
 
 # The Basics (with TypeScript)
